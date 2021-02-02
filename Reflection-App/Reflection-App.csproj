@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Reflection_App</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Attachmate.Reflection">
+      <HintPath>lib\Attachmate.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="Attachmate.Reflection.Emulation.IbmHosts">
+      <HintPath>lib\Attachmate.Reflection.Emulation.IbmHosts.dll</HintPath>
+    </Reference>
+    <Reference Include="Attachmate.Reflection.Emulation.OpenSystems">
+      <HintPath>lib\Attachmate.Reflection.Emulation.OpenSystems.dll</HintPath>
+    </Reference>
+    <Reference Include="Attachmate.Reflection.Framework">
+      <HintPath>lib\Attachmate.Reflection.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Attachmate.Reflection.UserControl.IbmHosts">
+      <HintPath>lib\Attachmate.Reflection.UserControl.IbmHosts.dll</HintPath>
+    </Reference>
+    <Reference Include="Attachmate.Reflection.UserControl.OpenSystems">
+      <HintPath>lib\Attachmate.Reflection.UserControl.OpenSystems.dll</HintPath>
+    </Reference>
+    <Reference Include="Attachmate.Reflection.UserControl.OpenSystemsGraphics">
+      <HintPath>lib\Attachmate.Reflection.UserControl.OpenSystemsGraphics.dll</HintPath>
+    </Reference>
+    <Reference Include="Attachmate.Reflection.UserControl.Wpf.IbmHosts">
+      <HintPath>lib\Attachmate.Reflection.UserControl.wpf.IbmHosts.dll</HintPath>
+    </Reference>
+    <Reference Include="Attachmate.Reflection.UserControl.Wpf.OpenSystems">
+      <HintPath>lib\Attachmate.Reflection.UserControl.wpf.OpenSystems.dll</HintPath>
+    </Reference>
+    <Reference Include="Attachmate.Reflection.UserControl.Wpf.OpenSystemsGraphics">
+      <HintPath>lib\Attachmate.Reflection.UserControl.wpf.OpenSystemsGraphics.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
